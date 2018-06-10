@@ -1,0 +1,6 @@
+[submodule "boxinity"]
+	path = boxinity
+	url = https://github.com/Shikee/boxinity
+[submodule "boxinity-frontend"]
+	path = boxinity-frontend
+	url = https://github.com/Boxinity/boxinity-frontend
