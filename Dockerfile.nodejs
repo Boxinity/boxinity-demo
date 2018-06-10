@@ -1,0 +1,11 @@
+FROM node:alpine
+
+RUN apt-get update && apt-get -y install \
+    libpq-dev
+
+WORKDIR /boxinity-node
+ADD ./boxinity-frontend /boxinity-node/
+RUN npm install
+
+EXPOSE 3000
+CMD ["npm", "start"]

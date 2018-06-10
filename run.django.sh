@@ -3,7 +3,7 @@
 NAME=boxinity-backend 
 NET=boxinity-net
 TAG=0.1 
-IP=172.19.0.11
+IP=172.19.0.12
 
 sudo docker stop $NAME
 sudo docker rm $NAME

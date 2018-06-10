@@ -1,0 +1,8 @@
+FROM node:8.11.2
+
+WORKDIR /boxinity-node
+ADD ./boxinity-frontend /boxinity-node/
+RUN npm install
+
+EXPOSE 3000
+CMD ["npm", "start"]
